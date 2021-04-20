@@ -1,0 +1,5 @@
+classes = 17
+train = /Users/maetee/DeepLearning/Yolo.v3/pid_detect/train.txt
+valid = /Users/maetee/DeepLearning/Yolo.v3/pid_detect/test.txt
+names = /Users/maetee/DeepLearning/Yolo.v3/pid_detect/classes.names
+backup = /Users/maetee/DeepLearning/Yolo.v3/pid_detect/weights
