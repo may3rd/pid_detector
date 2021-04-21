@@ -21,9 +21,11 @@ for i in range(0, len(lines)):
 
 plt.xlabel('Batch Number')
 plt.ylabel('Avg Loss')
-fig.savefig('training_loss_plot.png', dpi=1000)
+plt.show()
 
-print('Done! Plot saved as training_loss_plot.png')
+#fig.savefig('training_loss_plot.png', dpi=1000)
+
+#print('Done! Plot saved as training_loss_plot.png')
 
 
 

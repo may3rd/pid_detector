@@ -32,7 +32,7 @@ with open(classesFile, 'rt') as f:
 # Give the configuration and weight files for the model and load the network using them.
 
 modelConfiguration = "/Users/maetee/DeepLearning/yolo.v3/pid_detect/darknet.cfg";
-modelWeights = "/Users/maetee/DeepLearning/yolo.v3/pid_detect/darknet_600.weights";
+modelWeights = "/Users/maetee/DeepLearning/yolo.v3/pid_detect/weights/darknet_600.weights";
 
 net = cv.dnn.readNetFromDarknet(modelConfiguration, modelWeights)
 if args.device == "cpu":
