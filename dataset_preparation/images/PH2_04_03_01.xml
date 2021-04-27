@@ -1,0 +1,50 @@
+<annotation>
+	<folder>images</folder>
+	<filename>PH2_04_03_01.png</filename>
+	<path>/Volumes/Macintosh HD — Data/Users/maetee/DeepLearning/Core ML/dataset_preparation/images/PH2_04_03_01.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1240</width>
+		<height>1169</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Page In</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>187</xmin>
+			<ymin>262</ymin>
+			<xmax>396</xmax>
+			<ymax>303</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Page Out</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>188</xmin>
+			<ymin>526</ymin>
+			<xmax>400</xmax>
+			<ymax>567</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Line Number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>430</xmin>
+			<ymin>826</ymin>
+			<xmax>781</xmax>
+			<ymax>851</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>PH2_03A_02_03.png</filename>
+	<path>/Volumes/Macintosh HD — Data/Users/maetee/DeepLearning/Core ML/dataset_preparation/images/PH2_03A_02_03.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1240</width>
+		<height>1169</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Spetacle Blind</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1021</xmin>
+			<ymin>1061</ymin>
+			<xmax>1076</xmax>
+			<ymax>1081</ymax>
+		</bndbox>
+	</object>
+</annotation>
