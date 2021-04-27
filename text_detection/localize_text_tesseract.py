@@ -20,6 +20,14 @@ if args["output"]=="default":
 # load the input image, convert it from BGR to RGB channel ordering,
 # and use Tesseract to localize each area of text in the input image
 image = cv2.imread(args["image"])
+
+# todo
+# cropping only area of interest, for this is line number from
+# Core ML object detection : Line Number
+"""
+crop_img = image[xmin:xmax, ymin:ymax]
+"""
+
 rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 results = pytesseract.image_to_data(rgb, output_type=Output.DICT)
 
